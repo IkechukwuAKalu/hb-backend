@@ -1,8 +1,7 @@
-node_modules
-npm-debug.log
+node_modules/
 README.md
 .gitignore
 *.log
-coverage
-.nyc_output
-images
+coverage/
+.nyc_output/
+images/

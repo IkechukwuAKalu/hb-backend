@@ -18,13 +18,15 @@ Additionally, you can run `npm test` to run the tests included in the project.
 
 ### Docker
 The public image for this project on Docker Hub is http://hub.docker.com/aikaykalz/hb-backend.
+To pull the repository,
+
+`docker pull aikaykalz/hb-backend`
+
 You can run the image for your terminal using the following command
 
-`docker run aikaykalz/hb-backend`
+`docker run --rm -p 3000:3000 aikaykalz/hb-backend`
 
 **NOTE:** If you encounter permission errors, you should consider running the command with `sudo`.
-
-`sudo docker run aikaykalz/hb-backend`
 
 ## Routes
 This project has just three routes (one public route and two protected routes) and are as follows:
