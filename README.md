@@ -6,7 +6,7 @@ This is a project for the HackerBay.io Round 1 [interview task](https://github.c
 - Image Resize (Thumbnail); this resizes an image to 50x50 pixels and returns it
 
 ## Usage
-To run this project, first you need to clone this repository `git clone https://gith` or download the zipped project
+To run this project, first you need to clone this repository `git clone https://github.com/IkechukwuAKalu/hb-backend.git` or download the zipped project
 
 Next, you need to run `npm i` to download all the dependencies
 
