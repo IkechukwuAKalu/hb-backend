@@ -1,0 +1,37 @@
+{
+  "name": "hb_back-end",
+  "version": "1.0.0",
+  "description": "A Microservice in Node.js which authenticates users using JWT, applies JSON patch and generates image thumbnails",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IkechukwuAKalu/hb-backend.git"
+  },
+  "keywords": [
+    "hackerbay",
+    "interview task",
+    "nodejs"
+  ],
+  "author": "Ikechukwu Kalu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jimp": "^0.2.28",
+    "jsonpatch": "^3.0.1",
+    "jsonwebtoken": "^8.2.1",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "mocha": "^5.1.1",
+    "nodejs-dashboard": "^0.4.3",
+    "nyc": "^11.7.1",
+    "supertest": "^3.0.0"
+  }
+}

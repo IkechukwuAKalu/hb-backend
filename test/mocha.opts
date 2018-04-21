@@ -1,0 +1,2 @@
+test/integration/test.*.js --recursive
+test/unit/test.*.js --recursive
