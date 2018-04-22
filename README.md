@@ -64,6 +64,6 @@ This project has just three routes (one public route and two protected routes) a
 ## Monitor
 This application uses [node-js dashboard](https://github.com/FormidableLabs/nodejs-dashboard) for monitoring. To start the monitor, type the following in your terminal
 
-`$ ./node_modules/.bin/nodejs-dashboard node dev.index.js`
+`$ npm run dev`
 
 **NOTE:** If you encounter an error while trying to run the above command, [increase the terminal size](https://github.com/aksakalli/gtop/issues/53#issuecomment-335451927) and that should fix it.
