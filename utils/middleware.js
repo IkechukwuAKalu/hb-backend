@@ -2,7 +2,7 @@
  * This file contains route middlewares
  */
 
-const jwt = require('./jwt');
+const jwt = require('./jwt'); /** {@link jwt.js} */
 
 module.exports = class Middleware {
 

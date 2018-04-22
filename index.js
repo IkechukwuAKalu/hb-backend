@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 /** Export app for use in other files */
 exports.app = app;
 
-/** Set the application routes */
+/** Set the application {@link api/routes.js} */
 app.use('', require('./api/routes').router);
 
 /** Handles 404 errors */
@@ -22,5 +22,5 @@ app.use((req, res, next) => {
     res.status(404).json({error: `Cannot ${req.method} ${req.originalUrl}`});
 });
 
-/** Start the server */
+/** Start the server {@link utils/server.js} */
 require('./utils/server').start(httpServer)
