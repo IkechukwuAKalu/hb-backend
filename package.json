@@ -6,7 +6,7 @@
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha",
     "start": "node index.js",
-    "dev": "./node_modules/.bin/nodejs-dashboard node dev.index.js"
+    "dev": "nodejs-dashboard node dev.index.js"
   },
   "repository": {
     "type": "git",
