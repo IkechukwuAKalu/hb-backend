@@ -59,7 +59,13 @@ This project has just three routes (one public route and two protected routes) a
     http://localhost:3000/gen-thumbnail?image=https://hackerbay.io/assets/CloudBoostLogo.png
     ```
 
-**NOTE:** Depending on your configuration, you may need to change the host and/or the port number in the URL.
+**NOTE:** Depending on your configuration, you may need to change the host and/or the port number in the URL. For the Patch and Thumbnail URLs, you need to add a header value containing the token. Example:
+
+```javascript
+{
+    token: 'your_token_returned_from_the_login_request'
+}
+```
 
 ## Monitor
 This application uses [node-js dashboard](https://github.com/FormidableLabs/nodejs-dashboard) for monitoring. To start the monitor, type the following in your terminal
