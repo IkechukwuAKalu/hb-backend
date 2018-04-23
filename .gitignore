@@ -3,4 +3,5 @@ coverage/
 images/
 node_modules/
 *.log
+out/
 TODO
